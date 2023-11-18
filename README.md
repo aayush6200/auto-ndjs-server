@@ -1,21 +1,18 @@
-# auto-ndjs-server
+# auto-ndjs-server 💻🚀
 
 
 auto-ndjs-server npm package
+
 Introduction:
 The auto-ndjs-server library simplifies the process of setting up a Node.js server by handling the installation of the latest versions of key dependencies. These dependencies include:
 
-
-
-
-express
-cors
-body-parser
-dotenv
+🚀 express
+🔄 cors
+📦 body-parser
+🔐 dotenv
 Additionally, the library creates a basic server.js file, providing users with a convenient starting point for their Node.js applications.
 
 Getting Started:
-
 Install Node.js:
 Make sure you have Node.js installed on your computer. If not, you can download and install it from nodejs.org.
 
@@ -50,7 +47,6 @@ node server.js
 Your server will be accessible on the specified port.
 
 Optional: Nodemon Setup:
-
 For a more convenient development experience, consider using nodemon to automatically restart the server when files change.
 
 Install Nodemon:
@@ -65,11 +61,11 @@ Add the following script to your package.json file:
 json
 Copy code
 "scripts": {
-"start": "nodemon server.js"
+  "start": "nodemon server.js"
 }
 This enables you to run your server with nodemon using:
 
 bash
 Copy code
 npm start
-Happy Coding!
+Happy Coding! 🎉👩‍💻👨‍💻
