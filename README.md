@@ -1,71 +1,67 @@
-# auto-ndjs-server 💻🚀
+```markdown
+# 🌐 auto-ndjs-server npm package
 
+## 📘 Introduction:
+The **auto-ndjs-server** library 🛠️ streamlines the setup of a Node.js server by automating the installation of the latest versions of essential dependencies. These include:
 
-auto-ndjs-server npm package
+- 🚀 express
+- 🛡️ cors
+- 📝 body-parser
+- 🌐 dotenv
 
-Introduction:
-The auto-ndjs-server library simplifies the process of setting up a Node.js server by handling the installation of the latest versions of key dependencies. These dependencies include:
+Additionally, it crafts a basic `server.js` file, giving users a helpful jumpstart for their Node.js projects.
 
-🚀 express
-🔄 cors
-📦 body-parser
-🔐 dotenv
-Additionally, the library creates a basic server.js file, providing users with a convenient starting point for their Node.js applications.
+## 🎬 Getting Started:
 
-Getting Started:
-Install Node.js:
-Make sure you have Node.js installed on your computer. If not, you can download and install it from nodejs.org.
+### 1. 📦 Install Node.js:
+Ensure you have Node.js on your computer. If not, grab and install it from [nodejs.org](https://nodejs.org).
 
-Install auto-ndjs-server:
-Open your terminal and run the following command:
+### 2. 💻 Install auto-ndjs-server:
+- Open your terminal and execute the following command to install the library globally, allowing access from anywhere in your terminal.
+  ```bash
+  npm install -g auto-ndjs-server
+  ```
 
-bash
-Copy code
-npm install -g auto-ndjs-server
-This installs the library globally, making it accessible from anywhere in your terminal.
+### 3. 🏗️ Initialize auto-ndjs-server:
+- Forge a new directory for your project and dive in using the terminal.
+  ```bash
+  mkdir my-node-app
+  cd my-node-app
+  ```
+- Fire up your Node.js server with the next command. This will install all dependencies in their latest versions and create a basic `server.js` file. The default port is 3000, but feel free to adjust.
+  ```bash
+  auto-ndjs-server
+  ```
 
-Initialize auto-ndjs-server:
-Create a new directory for your project and navigate into it using the terminal.
+### 4. 🚀 Run the Server:
+- Kickstart your Node.js server by running:
+  ```bash
+  node server.js
+  ```
+  Your server is now live on the designated port!
 
-bash
-Copy code
-mkdir my-node-app
-cd my-node-app
-Run the following command to set up your Node.js server:
+## 🔁 Optional: Nodemon Setup:
 
-bash
-Copy code
-auto-ndjs-server
-This command installs all the dependencies with their latest versions and sets up a basic server.js file. The default port is 3000, but you can change it as needed.
+For an enhanced development experience, use nodemon to auto-restart your server upon file changes.
 
-Run the Server:
-Start your Node.js server by running:
+### 🔄 Install Nodemon:
+- Install nodemon globally with this command:
+  ```bash
+  npm install -g nodemon
+  ```
 
-bash
-Copy code
-node server.js
-Your server will be accessible on the specified port.
+### ⚙️ Configure package.json:
+- Augment your `package.json` with this script to embrace nodemon:
+  ```json
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+  ```
+  Now, ignite your server with nodemon using:
+  ```bash
+  npm start
+  ```
 
-Optional: Nodemon Setup:
-For a more convenient development experience, consider using nodemon to automatically restart the server when files change.
-
-Install Nodemon:
-Install nodemon globally using the following command:
-
-bash
-Copy code
-npm install -g nodemon
-Configure package.json:
-Add the following script to your package.json file:
-
-json
-Copy code
-"scripts": {
-  "start": "nodemon server.js"
-}
-This enables you to run your server with nodemon using:
-
-bash
-Copy code
-npm start
-Happy Coding! 🎉👩‍💻👨‍💻
+## 🎉 Happy Coding!
+Embark on your development journey with **auto-ndjs-server** and simplify your Node.js server setup!
+```
