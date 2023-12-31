@@ -1,0 +1,18 @@
+{
+  "name": "nd-auto",
+  "version": "1.0.0",
+  "description": "auto formation of server(basic setups) and download of all basic packages",
+  "main": "setup.js",
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "*",
+    "dotenv": "*",
+    "express": "*",
+    "nodemon": "*"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
